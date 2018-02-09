@@ -75,9 +75,12 @@
     <gap:splash src="pics/splash768x1024.jpg"   gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="pics/splash1024x768.jpg"   gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="pics/splash1242x2208.jpg"  gap:platform="ios"     width="1242" height="2208" />
+    
+    <!--
     <gap:splash src="pics/splash1536x2048.jpg"  gap:platform="ios"     width="1536" height="2048" />
     <gap:splash src="pics/splash2048x1536.jpg"  gap:platform="ios"     width="2048" height="1536" />
     <gap:spalsh src="pics/splash2208x1242.jpg"  gap:platform="ios"     width="2208" height="1242" />
+    -->
     <!-- <gap:splash src="pics/splash.jpg"          gap:platform="blackberry" /> -->
     <!-- <gap:splash src="pics/splash.jpg"          gap:platform="winphone" /> -->
 

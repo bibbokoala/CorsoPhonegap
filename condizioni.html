@@ -14,7 +14,27 @@
 Si denominano condizioni generali di contratto quelle condizioni che un soggetto (solitamente un’impresa che fornisce beni o servizi rivolti al grande pubblico dei consumatori) predispone per regolamentare in maniera uniforme i propri rapporti con la clientela. Le condizioni generali di contratto predisposte da uno dei contraenti sono efficaci nei confronti dell’altro, se al momento della conclusione del contratto, questi le ha conosciute o avrebbe dovuto conoscerle usando l’ordinaria diligenza (art. 1341).
 </p>
    <a href='./index.html' class='btn btn-info btn-lg' style="margin-bottom:10px;" >Indietro</a>
+   <a href='./index.html' id="target" class='btn btn-info btn-lg' style="margin-bottom:10px;" >Hold for three seconds</a>
+<script>
+    $( "#target" ).click(function() {
+        alert( "CLICK" );
+    });
+    
+    $( "#target" ).on({
+        mousedown: function() {
+            $(this).data('timer', setTimeout(function() {
+                  foo();
+            }, 2000));
+        },
+        mouseup: function() {
+            clearTimeout( $(this).data('timer') );
+        }
+    });
 
+    function foo() {
+        alert('2 SECONDI');
+    }
+</script>
  </div>
 </div>
 </div>
